@@ -4,7 +4,7 @@
     "title": "Planta Galleta",
     "excerpt": "Proyecto Planta Galleta: mejoras en procesamiento y producción.",
     "image": "../images/Proyectos/Planta Galleta.jpg",
-    "url": "post1.html",
+    "url": "posts/post1.html",
     "date": "2026-06-01",
     "author": "Equipo Asocpraur"
   },
@@ -13,7 +13,7 @@
     "title": "Post 2",
     "excerpt": "Resumen del segundo post.",
     "image": "../images/blog/post2.jpg",
-    "url": "post2.html",
+    "url": "posts/post2.html",
     "date": "2026-05-20",
     "author": "Equipo Asocpraur"
   },
@@ -22,7 +22,7 @@
     "title": "Post 3",
     "excerpt": "Resumen del tercer post.",
     "image": "../images/blog/post3.jpg",
-    "url": "post3.html",
+    "url": "posts/post3.html",
     "date": "2026-05-10",
     "author": "Equipo Asocpraur"
   },
@@ -31,7 +31,7 @@
     "title": "Post 4",
     "excerpt": "Resumen del cuarto post.",
     "image": "../images/blog/post1.jpg",
-    "url": "post4.html",
+    "url": "posts/post4.html",
     "date": "2026-04-28",
     "author": "Equipo Asocpraur"
   },
@@ -40,7 +40,7 @@
     "title": "Post 5",
     "excerpt": "Resumen del quinto post.",
     "image": "../images/blog/post2.jpg",
-    "url": "post5.html",
+    "url": "posts/post5.html",
     "date": "2026-04-10",
     "author": "Equipo Asocpraur"
   },
@@ -49,7 +49,7 @@
     "title": "Post 6",
     "excerpt": "Resumen del sexto post.",
     "image": "../images/blog/post3.jpg",
-    "url": "post6.html",
+    "url": "posts/post6.html",
     "date": "2026-03-15",
     "author": "Equipo Asocpraur"
   }

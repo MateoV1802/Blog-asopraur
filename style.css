@@ -472,3 +472,12 @@ footer a {
     padding: 10px;
     border-radius: 10px;
 }
+
+
+.Volver {
+    display: inline-block;
+    margin-bottom: 14px;
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 0.95rem;
+}
