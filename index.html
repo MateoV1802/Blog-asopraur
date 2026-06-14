@@ -50,64 +50,22 @@
     </header>
 
     <main>
-        <h1>Blog Asocpraur</h1>
+        <section class="hero">
+            <div class="hero-inner">
+                <h1>Blog Asocpraur</h1>
+                <p class="hero-sub">Noticias, proyectos y recursos sobre el cacao y la comunidad.</p>
+            </div>
+        </section>
 
-        <div class="blog-container">
-            <div class="div1 blog-post">
-                <img src="images/Proyectos/Planta Galleta.jpg" alt="Planta Galleta">
-                <h2>Planta Galleta</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-                <a href="posts/post1.html">Leer más</a>
+        <section class="container">
+            <div class="controls">
+                <p class="muted">Añadir o modificar posts desde <strong>posts/posts.json</strong>.</p>
             </div>
-            <div class="div2 blog-post">
-                <img src="images/blog/post2.jpg" alt="Post 2">
-                <h2>Post 2</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-                <a href="posts/post2.html">Leer más</a>
-            </div>
-            <div class="div3 blog-post">
-                <img src="images/blog/post3.jpg" alt="Post 3">
-                <h2>Post 3</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-                <a href="posts/post3.html">Leer más</a>
-            </div>
-            <div class="div4 blog-post">
-                <img src="images/blog/post1.jpg" alt="Post 4">
-                <h2>Post 4</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-                <a href="posts/post4.html">Leer más</a>
-            </div>
-            <div class="div5 blog-post">
-                <img src="images/blog/post2.jpg" alt="Post 5">
-                <h2>Post 5</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-                <a href="posts/post5.html">Leer más</a>
-            </div>
-            <div class="div6 blog-post">
-                <img src="images/blog/post3.jpg" alt="Post 6">
-                <h2>Post 6</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-                <a href="posts/post6.html">Leer más</a>
-            </div>
-            <div class="div7 blog-post">
-                <img src="images/blog/post1.jpg" alt="Post 7">
-                <h2>Post 7</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-                <a href="posts/post7.html">Leer más</a>
-            </div>
-            <div class="div8 blog-post">
-                <img src="images/blog/post2.jpg" alt="Post 8">
-                <h2>Post 8</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-                <a href="posts/post8.html">Leer más</a>
-            </div>
-            <div class="div9 blog-post">
-                <img src="images/blog/post3.jpg" alt="Post 9">
-                <h2>Post 9</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-                <a href="posts/post9.html">Leer más</a>
-            </div>
-        </div>
+
+            <section id="posts-list" class="blog-container" aria-live="polite">
+                <!-- Los posts se cargan dinámicamente desde posts/posts.json -->
+            </section>
+        </section>
     </main>
 
     <footer>
